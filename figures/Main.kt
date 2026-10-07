@@ -34,4 +34,12 @@ fun main() {
         it.rotate(RotateDirection.CounterClockwise, centerX = 0, centerY = 0)
         println(it)
     }
+    println("\nповорот вокруг точки (3, -3)")
+    val a = Rect(x = 4, y = 3, width = 4, height = 2, id = 4)
+    a.rotate(RotateDirection.Clockwise, centerX = 3, centerY = -3)
+    println(a)
+
+    val b = Rect(x = 4, y = 3, width = 4, height = 2, id = 5)
+    b.rotate(RotateDirection.CounterClockwise, centerX = 3, centerY = -3)
+    println(b)
 }
