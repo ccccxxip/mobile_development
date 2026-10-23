@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GuessTheNumber</string>
+    <string name="title_main">Угадай число</string>
+    <string name="label_enter_range">Загадайте число и введите диапазон:</string>
+    <string name="hint_begin">Начало диапазона (0)</string>
+    <string name="hint_end">Конец диапазона (100)</string>
+    <string name="btn_start">Начать угадывать</string>
+    <string name="btn_yes">Да</string>
+    <string name="btn_no">Нет</string>
+    <string name="question_greater_than">Ваше число больше %1$d?</string>
+    <string name="question_is_number">Ваше число %1$d?</string>
+    <string name="result_format">Ваше число: %1$d!</string>
+    <string name="result_success">Ура! Ваше число: %1$d!</string>
+</resources>
