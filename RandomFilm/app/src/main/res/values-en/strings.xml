@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Random Film</string>
+    <string name="title_app">Random Film</string>
+    <string name="initial_prompt">Click the button to select a movie</string>
+    <string name="btn_get_film">Get Random Movie</string>
+    <string name="btn_reset">Reset</string>
+    <string name="no_more_films">No more movies left!\nClick "Reset" to start over.</string>
+
+    <string-array name="movies">
+        <item>Interstellar</item>
+        <item>The Shawshank Redemption</item>
+        <item>The Green Mile</item>
+        <item>Inception</item>
+        <item>The Intouchables</item>
+        <item>The Matrix</item>
+        <item>Forrest Gump</item>
+        <item>Fight Club</item>
+        <item>Gladiator</item>
+        <item>Pulp Fiction</item>
+    </string-array>
+</resources>

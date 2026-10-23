@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.randomfilm.RandomFilm-mergeDebugResources-33:/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/RandomFilm/app/src/main/res/values-en/strings.xml",
+                    "from": {
+                        "startLines": "9,2,5,6,4,7,3",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "428,55,232,290,154,334,104",
+                        "endLines": "20,2,5,6,4,7,3",
+                        "endColumns": "19,48,57,43,77,92,49",
+                        "endOffsets": "824,99,285,329,227,422,149"
+                    },
+                    "to": {
+                        "startLines": "2,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,456,505,563,607,685,778",
+                        "endLines": "13,14,15,16,17,18,19",
+                        "endColumns": "19,48,57,43,77,92,49",
+                        "endOffsets": "451,500,558,602,680,773,823"
+                    }
+                }
+            ]
+        }
+    ]
+}

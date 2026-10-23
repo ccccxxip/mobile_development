@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="movies">
+        <item>Интерстеллар</item>
+        <item>Побег из Шоушенка</item>
+        <item>Зеленая миля</item>
+        <item>Начало</item>
+        <item>1+1 (Неприкасаемые)</item>
+        <item>Матрица</item>
+        <item>Форрест Гамп</item>
+        <item>Бойцовский клуб</item>
+        <item>Гладиатор</item>
+        <item>Криминальное чтиво</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Случайный фильм</string>
+    <string name="btn_get_film">Подобрать фильм</string>
+    <string name="btn_reset">Сброс</string>
+    <string name="initial_prompt">Нажмите кнопку, чтобы выбрать фильм</string>
+    <string name="no_more_films">Фильмы закончились!\nНажмите "Сброс", чтобы начать сначала.</string>
+    <string name="title_app">Случайный фильм</string>
+    <style name="Base.Theme.RandomFilm" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.RandomFilm" parent="Base.Theme.RandomFilm"/>
+</resources>
