@@ -35,3 +35,6 @@ project(":PortraitLandscape").projectDir = file("PortraitLandscape/app")
 
 include(":TestCanvas")
 project(":TestCanvas").projectDir = file("TestCanvas/app")
+
+include(":Snowflakes")
+project(":Snowflakes").projectDir = file("Snowflakes/app")
