@@ -1,0 +1,8 @@
+com.example.testcanvas.TestCanvas-pngs-0 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/TestCanvas/app/build/generated/res/pngs/debug
+com.example.testcanvas.TestCanvas-updated_navigation_xml-1 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/TestCanvas/app/build/generated/updated_navigation_xml/debug
+com.example.testcanvas.TestCanvas-packageDebugResources-2 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/TestCanvas/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.testcanvas.TestCanvas-packageDebugResources-3 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/TestCanvas/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.testcanvas.TestCanvas-debug-4 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/TestCanvas/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.testcanvas.TestCanvas-debug-5 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/TestCanvas/app/src/debug/res
+com.example.testcanvas.TestCanvas-main-6 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/TestCanvas/app/src/main/res
+gradleHome-0 /Users/alenasemenova/.gradle

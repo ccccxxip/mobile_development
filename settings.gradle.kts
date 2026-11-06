@@ -32,3 +32,6 @@ project(":RandomFilm").projectDir = file("RandomFilm/app")
 
 include(":PortraitLandscape")
 project(":PortraitLandscape").projectDir = file("PortraitLandscape/app")
+
+include(":TestCanvas")
+project(":TestCanvas").projectDir = file("TestCanvas/app")

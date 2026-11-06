@@ -1,0 +1,17 @@
+com.example.testcanvas
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id main
+id myCanvasView
+id tvTitle
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string title_app
+style Base_Theme_TestCanvas
+style Theme_TestCanvas
+xml backup_rules
+xml data_extraction_rules
