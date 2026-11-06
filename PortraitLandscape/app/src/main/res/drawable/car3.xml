@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Green Car -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M30,110 L50,70 L150,70 L170,110 L185,110 C190,110 195,115 195,120 L195,145 C195,150 190,155 185,155 L15,155 C10,155 5,150 5,145 L5,120 C5,115 10,110 15,110 Z"/>
+    <!-- Roof / Window -->
+    <path
+        android:fillColor="#DCEDC8"
+        android:pathData="M55,75 L85,75 L85,105 L38,105 Z M95,75 L145,75 L162,105 L95,105 Z"/>
+    <!-- Wheels -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M45,155 A20,20 0 1,0 45,154 Z M155,155 A20,20 0 1,0 155,154 Z"/>
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M45,155 A10,10 0 1,0 45,154 Z M155,155 A10,10 0 1,0 155,154 Z"/>
+</vector>

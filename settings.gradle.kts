@@ -29,3 +29,6 @@ project(":GuessTheNumber").projectDir = file("GuessTheNumber/app")
 
 include(":RandomFilm")
 project(":RandomFilm").projectDir = file("RandomFilm/app")
+
+include(":PortraitLandscape")
+project(":PortraitLandscape").projectDir = file("PortraitLandscape/app")

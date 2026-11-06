@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Выбор машины</string>
+    <string name="title_app">Выбор машины</string>
+    <string name="btn_next_car">Следующая машина</string>
+
+    <string-array name="cars">
+        <item>Красная машина (car1)</item>
+        <item>Синяя машина (car2)</item>
+        <item>Зеленая машина (car3)</item>
+    </string-array>
+</resources>

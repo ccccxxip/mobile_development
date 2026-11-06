@@ -1,0 +1,24 @@
+com.example.portraitlandscape
+array cars
+color black
+color white
+drawable car1
+drawable car2
+drawable car3
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id buttonNextCar
+id imageViewCar
+id main
+id spinnerCars
+id tvTitle
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn_next_car
+string title_app
+style Base_Theme_PortraitLandscape
+style Theme_PortraitLandscape
+xml backup_rules
+xml data_extraction_rules

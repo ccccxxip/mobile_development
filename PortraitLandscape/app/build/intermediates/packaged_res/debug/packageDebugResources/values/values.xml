@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cars">
+        <item>Красная машина (car1)</item>
+        <item>Синяя машина (car2)</item>
+        <item>Зеленая машина (car3)</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Выбор машины</string>
+    <string name="btn_next_car">Следующая машина</string>
+    <string name="title_app">Выбор машины</string>
+    <style name="Base.Theme.PortraitLandscape" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.PortraitLandscape" parent="Base.Theme.PortraitLandscape"/>
+</resources>
