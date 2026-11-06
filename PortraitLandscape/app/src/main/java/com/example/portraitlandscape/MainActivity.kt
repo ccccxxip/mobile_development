@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
         val spinnerCars = findViewById<Spinner>(R.id.spinnerCars)
         val buttonNextCar = findViewById<Button>(R.id.buttonNextCar)
 
-        // Set up Spinner adapter
         val adapter = ArrayAdapter.createFromResource(
             this,
             R.array.cars,
@@ -43,11 +42,9 @@ class MainActivity : AppCompatActivity() {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinnerCars.adapter = adapter
 
-        // Set initial state
         imageViewCar.setImageResource(carImages[currentIndex])
         spinnerCars.setSelection(currentIndex)
 
-        // Spinner item selection listener
         spinnerCars.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 if (position != currentIndex) {
@@ -60,7 +57,6 @@ class MainActivity : AppCompatActivity() {
             override fun onNothingSelected(parent: AdapterView<*>?) {}
         }
 
-        // Button click listener to cycle through cars
         buttonNextCar.setOnClickListener {
             currentIndex = (currentIndex + 1) % carImages.size
             imageViewCar.setImageResource(carImages[currentIndex])
