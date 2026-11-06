@@ -1,0 +1,23 @@
+com.example.mvvmdemo
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnDecrement
+id btnIncrement
+id btnReset
+id main
+id tvCounter
+id tvTitle
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn_decrement
+string btn_increment
+string btn_reset
+string title_app
+style Base_Theme_MVVMDemo
+style Theme_MVVMDemo
+xml backup_rules
+xml data_extraction_rules

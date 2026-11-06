@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MVVM Счётчик</string>
+    <string name="title_app">Счётчик MVVM</string>
+    <string name="btn_increment">+</string>
+    <string name="btn_decrement">-</string>
+    <string name="btn_reset">Сброс</string>
+</resources>

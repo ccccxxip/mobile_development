@@ -38,3 +38,6 @@ project(":TestCanvas").projectDir = file("TestCanvas/app")
 
 include(":Snowflakes")
 project(":Snowflakes").projectDir = file("Snowflakes/app")
+
+include(":MVVMDemo")
+project(":MVVMDemo").projectDir = file("MVVMDemo/app")
