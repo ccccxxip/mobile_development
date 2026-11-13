@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Новосибирск</item>
+        <item>Екатеринбург</item>
+        <item>Казань</item>
+        <item>Иркутск</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Погода</string>
+    <string name="cb_show_wind">Отображать направление и скорость ветра</string>
+    <string name="label_select_city">Выберите город:</string>
+    <string name="label_temp_unit">Единица измерения температуры:</string>
+    <string name="title_app">Прогноз погоды</string>
+    <string name="unit_celsius">Цельсий (°C)</string>
+    <string name="unit_fahrenheit">Фаренгейт (°F)</string>
+    <string name="wind_format">Ветер: %1$s, %2$.1f м/с</string>
+    <style name="Base.Theme.WeatherApp" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.WeatherApp" parent="Base.Theme.WeatherApp"/>
+</resources>

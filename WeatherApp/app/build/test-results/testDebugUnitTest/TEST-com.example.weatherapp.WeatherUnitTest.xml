@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.weatherapp.WeatherUnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-13T07:01:22.094Z" hostname="MacBook-Pro-Alena.local" time="0.004">
+  <properties/>
+  <testcase name="testZeroCelsiusFahrenheitConversion" classname="com.example.weatherapp.WeatherUnitTest" time="0.001"/>
+  <testcase name="testTemperatureConversion" classname="com.example.weatherapp.WeatherUnitTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

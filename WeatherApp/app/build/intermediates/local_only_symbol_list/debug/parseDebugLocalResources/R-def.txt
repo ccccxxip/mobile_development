@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+array cities
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id cardWeather
+id cbShowWind
+id main
+id rbCelsius
+id rbFahrenheit
+id rgTempUnit
+id spinnerCity
+id tvCityName
+id tvCondition
+id tvTemperature
+id tvTitle
+id tvWind
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string cb_show_wind
+string label_select_city
+string label_temp_unit
+string title_app
+string unit_celsius
+string unit_fahrenheit
+string wind_format
+style Base.Theme.WeatherApp
+style Theme.WeatherApp
+xml backup_rules
+xml data_extraction_rules
