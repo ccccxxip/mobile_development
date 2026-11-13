@@ -41,3 +41,6 @@ project(":Snowflakes").projectDir = file("Snowflakes/app")
 
 include(":MVVMDemo")
 project(":MVVMDemo").projectDir = file("MVVMDemo/app")
+
+include(":WeatherApp")
+project(":WeatherApp").projectDir = file("WeatherApp/app")
