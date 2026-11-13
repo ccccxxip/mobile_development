@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
     private val weatherData = mutableMapOf<String, CityWeather>()
     private var selectedCity: String = ""
 
-    // OpenWeatherMap API Key (для запроса реальной погоды через корутины)
     private val apiKey = "e46f6630f9a7aa4e5c54848d73b22cfd"
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -87,7 +86,6 @@ class MainActivity : AppCompatActivity() {
     private fun fetchLiveWeatherForCity(cityName: String) {
         updateWeatherDisplay()
 
-        // Запрос реальной погоды через API OpenWeatherMap с корутинами (на доп. балл!)
         lifecycleScope.launch(Dispatchers.IO) {
             try {
                 val cityQuery = when (cityName) {
