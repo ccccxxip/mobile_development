@@ -41,7 +41,6 @@
             android:minHeight="48dp"
             android:layout_marginBottom="32dp" />
 
-        <!-- Weather Card using Data Binding -->
         <LinearLayout
             android:id="@+id/cardWeather"
             android:layout_width="match_parent"

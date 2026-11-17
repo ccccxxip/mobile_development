@@ -17,6 +17,7 @@ import java.net.URL
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private val weatherData = mutableMapOf<String, WeatherData>()
     private val apiKey = "e46f6630f9a7aa4e5c54848d73b22cfd"
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        binding.weather = WeatherData(cityName = "Загрузка...", condition = "Пожалуйста, подождите")
+        loadWeatherDataFromJson()
 
         val adapter = ArrayAdapter.createFromResource(
             this,
@@ -47,7 +48,39 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun loadWeatherDataFromJson() {
+        try {
+            val jsonString = assets.open("weather.json").bufferedReader().use { it.readText() }
+            val jsonObject = JSONObject(jsonString)
+            val keys = jsonObject.keys()
+            while (keys.hasNext()) {
+                val city = keys.next()
+                val cityObj = jsonObject.getJSONObject(city)
+                val tempC = cityObj.getDouble("tempC")
+                val condition = cityObj.getString("condition")
+                val windDir = cityObj.getString("windDir")
+                val windSpeed = cityObj.getDouble("windSpeed")
+                weatherData[city] = WeatherData(
+                    cityName = city,
+                    tempC = tempC,
+                    condition = condition,
+                    windDir = windDir,
+                    windSpeed = windSpeed,
+                    humidity = 70,
+                    pressure = 1012
+                )
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
     private fun fetchWeatherDataWithCoroutines(cityName: String) {
+        val localWeather = weatherData[cityName]
+        if (localWeather != null) {
+            binding.weather = localWeather
+        }
+
         lifecycleScope.launch(Dispatchers.IO) {
             try {
                 val cityQuery = when (cityName) {
@@ -94,17 +127,6 @@ class MainActivity : AppCompatActivity() {
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
-                withContext(Dispatchers.Main) {
-                    binding.weather = WeatherData(
-                        cityName = cityName,
-                        tempC = 0.0,
-                        condition = "Ошибка загрузки или оффлайн",
-                        windDir = "З",
-                        windSpeed = 2.0,
-                        humidity = 70,
-                        pressure = 1012
-                    )
-                }
             }
         }
     }

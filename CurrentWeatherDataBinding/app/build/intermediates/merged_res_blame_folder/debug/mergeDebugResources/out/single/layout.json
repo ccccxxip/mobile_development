@@ -2,5 +2,9 @@
     {
         "merged": "com.example.currentweatherdatabinding.CurrentWeatherDataBinding-mergeDebugResources-37:/layout/activity_main.xml",
         "source": "com.example.currentweatherdatabinding.CurrentWeatherDataBinding-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.currentweatherdatabinding.CurrentWeatherDataBinding-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.currentweatherdatabinding.CurrentWeatherDataBinding-main-40:/layout/activity_main.xml"
     }
 ]
