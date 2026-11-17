@@ -1,4 +1,4 @@
-#Fri Nov 06 11:25:52 GMT+08:00 2026
+#Tue Nov 17 14:59:14 GMT+08:00 2026
 base.0=/Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/Snowflakes/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/Snowflakes/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/Snowflakes/app/build/intermediates/dex/debug/mergeProjectDexDebug/10/classes.dex
