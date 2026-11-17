@@ -44,3 +44,6 @@ project(":MVVMDemo").projectDir = file("MVVMDemo/app")
 
 include(":WeatherApp")
 project(":WeatherApp").projectDir = file("WeatherApp/app")
+
+include(":CurrentWeatherDataBinding")
+project(":CurrentWeatherDataBinding").projectDir = file("CurrentWeatherDataBinding/app")

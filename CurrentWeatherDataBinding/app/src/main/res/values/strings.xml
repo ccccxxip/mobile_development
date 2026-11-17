@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода DataBinding</string>
+    <string name="title_app">Погода с Data Binding</string>
+    <string name="label_select_city">Выберите город:</string>
+
+    <string-array name="cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Новосибирск</item>
+        <item>Екатеринбург</item>
+        <item>Казань</item>
+        <item>Иркутск</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.currentweatherdatabinding.WeatherDataTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-17T04:55:55.088Z" hostname="MacBook-Pro-Alena.local" time="0.005">
+  <properties/>
+  <testcase name="testDataBindingFormattedProperties" classname="com.example.currentweatherdatabinding.WeatherDataTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
