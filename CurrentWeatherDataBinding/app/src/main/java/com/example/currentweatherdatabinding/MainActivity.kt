@@ -22,17 +22,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Инициализация Data Binding
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        // Начальное значение данных
         binding.weather = WeatherData(cityName = "Загрузка...", condition = "Пожалуйста, подождите")
 
-        // Настройка Spinner
         val adapter = ArrayAdapter.createFromResource(
             this,
             R.array.cities,
-            android.R.layout.simple_spinner_item
+            android.R.layout.simple_spinner_item,
         )
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         binding.spinnerCity.adapter = adapter
@@ -92,7 +89,6 @@ class MainActivity : AppCompatActivity() {
                     pressure = pressure
                 )
 
-                // Привязка новых данных через Data Binding на главном потоке
                 withContext(Dispatchers.Main) {
                     binding.weather = weatherObj
                 }
