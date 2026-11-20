@@ -1,0 +1,8 @@
+com.example.memorina.Memorina-pngs-0 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/Memorina/app/build/generated/res/pngs/debug
+com.example.memorina.Memorina-updated_navigation_xml-1 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/Memorina/app/build/generated/updated_navigation_xml/debug
+com.example.memorina.Memorina-packageDebugResources-2 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/Memorina/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.memorina.Memorina-packageDebugResources-3 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/Memorina/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.memorina.Memorina-debug-4 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/Memorina/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.memorina.Memorina-debug-5 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/Memorina/app/src/debug/res
+com.example.memorina.Memorina-main-6 /Users/alenasemenova/AndroidStudioProjects/GuessTheNumber/Memorina/app/src/main/res
+gradleHome-0 /Users/alenasemenova/.gradle

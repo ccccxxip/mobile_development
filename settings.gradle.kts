@@ -47,3 +47,6 @@ project(":WeatherApp").projectDir = file("WeatherApp/app")
 
 include(":CurrentWeatherDataBinding")
 project(":CurrentWeatherDataBinding").projectDir = file("CurrentWeatherDataBinding/app")
+
+include(":Memorina")
+project(":Memorina").projectDir = file("Memorina/app")

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Меморина</string>
+    <string name="title_app">Игра Меморина</string>
+    <string name="btn_restart">Новая игра</string>
+</resources>

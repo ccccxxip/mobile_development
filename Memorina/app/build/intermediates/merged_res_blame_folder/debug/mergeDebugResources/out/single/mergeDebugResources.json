@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/drawable_card_2.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/drawable/card_2.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/layout_activity_main.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.memorina.Memorina-debug-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.memorina.Memorina-main-37:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/drawable_card_7.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/drawable/card_7.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/drawable_card_6.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/drawable/card_6.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/drawable_card_4.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/drawable/card_4.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/drawable_card_3.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/drawable/card_3.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/xml_backup_rules.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/drawable_card_1.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/drawable/card_1.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/drawable_card_5.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/drawable/card_5.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/drawable_card_8.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/drawable/card_8.xml"
+    },
+    {
+        "merged": "com.example.memorina.Memorina-debug-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.memorina.Memorina-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-debug-35:/drawable_card_back.xml.flat",
+        "source": "/Users/alenasemenova/.gradle/daemon/9.6.0/com.example.memorina.Memorina-main-37:/drawable/card_back.xml"
+    }
+]

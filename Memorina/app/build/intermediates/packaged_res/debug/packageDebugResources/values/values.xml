@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Меморина</string>
+    <string name="btn_restart">Новая игра</string>
+    <string name="title_app">Игра Меморина</string>
+    <style name="Base.Theme.Memorina" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.Memorina" parent="Base.Theme.Memorina"/>
+</resources>

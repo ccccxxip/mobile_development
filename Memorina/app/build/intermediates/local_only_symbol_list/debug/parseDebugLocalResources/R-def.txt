@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable card_1
+drawable card_2
+drawable card_3
+drawable card_4
+drawable card_5
+drawable card_6
+drawable card_7
+drawable card_8
+drawable card_back
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnRestart
+id gridCards
+id main
+id tvTitle
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string btn_restart
+string title_app
+style Base.Theme.Memorina
+style Theme.Memorina
+xml backup_rules
+xml data_extraction_rules
