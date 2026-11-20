@@ -23,9 +23,6 @@ class MainActivity : AppCompatActivity() {
     )
 
     private val gridCards = mutableListOf<ImageView>()
-    private var firstOpenView: ImageView? = null
-    private var secondOpenView: ImageView? = null
-    private var isBusy = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,7 +30,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnRestart = findViewById<Button>(R.id.btnRestart)
         btnRestart.setOnClickListener {
-            restartGame()
+            setupGame()
         }
 
         setupGame()
@@ -43,9 +40,6 @@ class MainActivity : AppCompatActivity() {
         val gridLayout = findViewById<GridLayout>(R.id.gridCards)
         gridLayout.removeAllViews()
         gridCards.clear()
-        firstOpenView = null
-        secondOpenView = null
-        isBusy = false
 
         val pairs = mutableListOf<Int>()
         for (resId in cardResources) {
@@ -75,47 +69,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private val colorListener = View.OnClickListener { view ->
-        if (isBusy) return@OnClickListener
         val card = view as? ImageView ?: return@OnClickListener
-
-        if (card == firstOpenView || card.visibility == View.INVISIBLE) return@OnClickListener
-
         val faceResId = card.tag as? Int ?: return@OnClickListener
+
         card.setImageResource(faceResId)
 
-        if (firstOpenView == null) {
-            firstOpenView = card
-        } else if (secondOpenView == null) {
-            secondOpenView = card
-            isBusy = true
-
-            val firstTag = firstOpenView?.tag as? Int
-            val secondTag = secondOpenView?.tag as? Int
-
-            if (firstTag == secondTag) {
-                Handler(Looper.getMainLooper()).postDelayed({
-                    firstOpenView?.visibility = View.INVISIBLE
-                    secondOpenView?.visibility = View.INVISIBLE
-                    resetSelection()
-                }, 400)
-            } else {
-                Handler(Looper.getMainLooper()).postDelayed({
-                    firstOpenView?.setImageResource(R.drawable.card_back)
-                    secondOpenView?.setImageResource(R.drawable.card_back)
-                    resetSelection()
-                }, 900)
-            }
-        }
-    }
-
-    private fun resetSelection() {
-        firstOpenView = null
-        secondOpenView = null
-        isBusy = false
-    }
-
-    private fun restartGame() {
-        setupGame()
+        Handler(Looper.getMainLooper()).postDelayed({
+            card.setImageResource(R.drawable.card_back)
+        }, 1000)
     }
 
     private fun dpToPx(dp: Int): Int {
