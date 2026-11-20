@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             card.setImageResource(R.drawable.card_back)
-        }, 1000)
+        }, 1500)
     }
 
     private fun dpToPx(dp: Int): Int {
